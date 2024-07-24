@@ -24,6 +24,7 @@ public class DemoClass {
         driver.findElement(By.xpath("//button[@class=\"signinButton gfg_loginModalBtn\"]")).click();
 
         driver.findElement(By.xpath("//div[text()=\"Sign Up\"]")).click();
+        //driver.
 
         driver.findElement(By.xpath("//input[@placeholder=\"E-mail\"]")).sendKeys("rutikhavale");
         driver.findElement(By.xpath("//input[@placeholder=\"Password\"]")).sendKeys("gfg123");
